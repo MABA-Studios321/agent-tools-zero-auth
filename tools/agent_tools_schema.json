@@ -1,0 +1,109 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "get_live_weather",
+      "description": "Fetch real-time weather and temperature for any coordinate on Earth without an API key.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "description": "The latitude coordinate (e.g. 35.6762 for Tokyo)"
+          },
+          "longitude": {
+            "type": "number",
+            "description": "The longitude coordinate (e.g. 139.6503 for Tokyo)"
+          }
+        },
+        "required": ["latitude", "longitude"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "web_reader",
+      "description": "Extract clean, reader-friendly markdown from any URL, stripping clutter, ads, and HTML cruft.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The full HTTP/HTTPS URL of the website to scrape and read."
+          }
+        },
+        "required": ["url"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "duckduckgo_instant_answer",
+      "description": "Search DuckDuckGo to obtain instant definitions, disambiguation, and knowledge summaries.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The term, entity, or question to search."
+          }
+        },
+        "required": ["query"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "wikipedia_lookup",
+      "description": "Retrieve official factual extract and overview summary from Wikipedia for a topic.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "The Wikipedia article title (e.g., Artificial_intelligence)."
+          }
+        },
+        "required": ["topic"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "crypto_price_lookup",
+      "description": "Get current real-time market prices for cryptocurrencies in USD.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "coin_id": {
+            "type": "string",
+            "description": "The cryptocurrency id (e.g., 'bitcoin', 'ethereum', 'solana')."
+          }
+        },
+        "required": ["coin_id"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "country_info",
+      "description": "Fetch official capital, currencies, region, and population metrics for any nation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "country_name": {
+            "type": "string",
+            "description": "Common name of the nation (e.g., 'France', 'Japan')."
+          }
+        },
+        "required": ["country_name"]
+      }
+    }
+  }
+]
+
