@@ -1,0 +1,64 @@
+- Web Scraping / Reader: https://r.jina.ai/<URL>
+  Description: Converts any live web page into clean, LLM-ready Markdown
+  Format: Markdown / Plaintext
+
+- Web Search: https://api.duckduckgo.com/?q={query}&format=json&no_html=1
+  Description: Instant answers, knowledge panels, and entity summaries
+  Format: JSON
+
+- Weather: https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+  Description: Accurate current temperatures, wind speeds, and hourly forecasts
+  Format: JSON
+
+- Encyclopedia: https://en.wikipedia.org/api/rest_v1/page/summary/{title}
+  Description: Grounded factual summaries and extracts from Wikipedia
+  Format: JSON
+
+- Cryptocurrency: https://api.coingecko.com/api/v3/simple/price?ids={coin}&vs_currencies=usd
+  Description: Live cryptocurrency spot prices and exchange rates
+  Format: JSON
+
+- Forex Rates: https://open.er-api.com/v6/latest/USD
+  Description: Live international fiat currency exchange rates
+  Format: JSON
+
+- Country Data: https://restcountries.com/v3.1/name/{name}
+  Description: National borders, currencies, capitals, and populations
+  Format: JSON
+
+- IP Geolocation: https://ipapi.co/{ip}/json/
+  Description: Country, region, latitude, longitude, and ISP data
+  Format: JSON
+
+- Public IP Lookup: https://api.ipify.org?format=json
+  Description: Resolves the client or agent's outgoing public IPv4 address
+  Format: JSON
+
+- DNS Resolution: https://dns.google/resolve?name={domain}&type=A
+  Description: Direct public DNS record query without terminal dependencies
+  Format: JSON
+
+- Global Universities: http://universities.hipolabs.com/search?name={name}
+  Description: Search accredited universities, websites, and country domains
+  Format: JSON
+
+- Random User Data: https://randomuser.me/api/
+  Description: Generates realistic mock user profiles for agent testing
+  Format: JSON
+
+- Web Archives: http://web.archive.org/cdx/search/cdx?url={url}&output=json
+  Description: Checks historical snapshot timestamps via the Wayback Machine
+  Format: JSON
+
+- Dictionary & Lexicon: https://api.dictionaryapi.dev/api/v2/entries/en/{word}
+  Description: Official definitions, phonetic transcriptions, and synonyms
+  Format: JSON
+
+- Public Holidays: https://date.nager.at/api/v3/PublicHolidays/{year}/{countryCode}
+  Description: Official worldwide public holidays by country code
+  Format: JSON
+
+- Space & ISS: http://api.open-notify.org/iss-now.json
+  Description: Real-time latitude and longitude coordinates of the ISS
+  Format: JSON
+
